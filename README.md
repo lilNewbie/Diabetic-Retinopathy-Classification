@@ -1,6 +1,6 @@
 # Diabetic Retinopathy Classification
 
-This repository contains a summary of my approaches to Image Classification on the Diabetic Retinopathy Dataset
+This repository contains a summary of my approaches to Image Classification on the Diabetic Retinopathy [Dataset](https://www.kaggle.com/datasets/amanneo/diabetic-retinopathy-resized-arranged)
 
 ## Preprocessing
 - Resizing to image height and width of 224 pixels
