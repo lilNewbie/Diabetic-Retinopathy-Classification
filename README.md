@@ -8,3 +8,12 @@ This repository contains a summary of my approaches to Image Classification on t
 - Using convertScaleAbs() function from OpenCV
 - Up-sampling the training dataset by merging images
 - Preprocessing using the ImageDataGenerator from Keras
+
+### Up-sampling methods used
+- Random Flipping
+- Using a duplicate
+- Merging two images
+### Merging function
+* The **Merge function** merges two similar images belonging to the same class. 
+* Each image is named as 'xxxxx_left.jpg' or 'xxxxx_right.jpg'. Similarity of the image is decided using the filename to identify left and right eyeballs. 
+* The two chosen images are added using the [cv2.addWeighted()](https://docs.opencv.org/4.x/d2/de8/group__core__array.html#gafafb2513349db3bcff51f54ee5592a19) function.
